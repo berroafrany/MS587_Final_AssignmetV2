@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AudioBook Library</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image:url('static/images/Designer.png'); 
+      background-repeat: no-repeat; 
+      background-size: 100% 100%;
+      padding: 2em;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .library {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2em;
+      margin-top: 2em;
+    }
+    .audiobook {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1em;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .audiobook h2 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .audiobook p {
+      margin: 0.5em 0 1em;
+      color: #555;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<h1 style="text-align:center"> Adudible Haven </h1>
+<h2 style="text-align:center"> Welcome to the Cozy Corner</h2>
+        
+        <p style="text-align:center"> Your next audiobook adventure starts here</p>
+        <h3 style="text-align:center"> Select one our audio books to listen to:</h3>
+
+<div class="library">
+  <div class="audiobook">
+    <h2>Elara and the Heartwood's Song</h2>
+    <img src="static/images/Elara.jpeg" style="width:128px;height:128px;"></a>
+    <audio controls>
+      <source src="static/audio/Elara and the Heartwoods Song.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="audiobook">
+    <h2>Nuts About Tutus Squeakys Big Leap</h2>
+    <img src="static/images/Nuts.jpeg" style="width:128px;height:128px;"></a>
+    <audio controls>
+      <source src="static/audio/Nuts About Tutus Squeakys Big Leap.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="audiobook">
+    <h2>Nimbus the Not-So-Cloudy Hat</h2>
+    <img src="static/images/Nimbus.jpeg" alt="HTML5 Icon" style="width:128px;height:128px;"></a>
+    <audio controls>
+      <source src="static/audio/Nimbus the Not-So-Cloudy Hat.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="audiobook">
+    <h2>Sparky's Scrap Run</h2>
+    <img src="static/images/Sparkys.jpeg" alt="HTML5 Icon" style="width:128px;height:128px;"></a>
+    <audio controls>
+      <source src="static/audio/Sparkys Scrap Run.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="audiobook">
+    <h2>Flicker's Unexpected Spark</h2>
+    <img src="static/images/Flickers.jpeg" alt="HTML5 Icon" style="width:128px;height:128px;"></a>
+    <audio controls>
+      <source src="static/audio/Flickers Unexpected Spark.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+
+</body>
+</html>
